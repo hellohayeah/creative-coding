@@ -22,15 +22,31 @@ class Duck {
     noStroke();
     push();
     fill("#F2FF49");
+    ellipse(this.x, this.y, this.size, this.size / 1.5);
+    fill("#F2FF49");
     circle(lerp(this.x, mouseX, 0.02), this.y - this.size / 1.5, this.size);
     fill(255);
     circle(
-      lerp(this.x, mouseX, 0.02),
+      lerp(this.x, mouseX, 0.03) - this.size / 4,
+      this.y - this.size / 1.3,
+      this.size / 3.5
+    );
+    circle(
+      lerp(this.x, mouseX, 0.03) + this.size / 4,
       this.y - this.size / 1.3,
       this.size / 3.5
     );
     fill(0);
-    circle(lerp(this.x, mouseX, 0.02), this.y - this.size / 1.3, this.size / 5);
+    circle(
+      lerp(this.x, mouseX, 0.03) - this.size / 4,
+      this.y - this.size / 1.3,
+      this.size / 5.5
+    );
+    circle(
+      lerp(this.x, mouseX, 0.03) + this.size / 4,
+      this.y - this.size / 1.3,
+      this.size / 5.5
+    );
     fill("#FF4242");
     ellipse(
       lerp(this.x, mouseX, 0.05),
@@ -38,8 +54,6 @@ class Duck {
       this.size / 1.5,
       this.size / 2.5
     );
-    fill("#F2FF49");
-    ellipse(this.x, this.y, this.size, this.size / 1.5);
     pop();
   }
 }
