@@ -1,0 +1,23 @@
+{
+  "points": [
+    { "id": 1, "name": "Bradley Beal", "team": "WAS", "value": 34.7 },
+    { "id": 2, "name": "Kevin Durant", "team": "BKN", "value": 30.5 },
+    { "id": 3, "name": "Damian Lillard", "team": "POR", "value": 29.6 },
+    { "id": 4, "name": "Joel Embiid", "team": "PHI", "value": 28.3 },
+    { "id": 5, "name": "Giannis Antetokounmpo", "team": "MIL", "value": 27.8 }
+  ],
+  "rebounds": [
+    { "id": 1, "name": "Andre Drummond", "team": "CLE", "value": 14.7 },
+    { "id": 2, "name": "Clint Capela", "team": "ATL", "value": 14.5 },
+    { "id": 3, "name": "Rudy Gobert", "team": "UTA", "value": 14.1 },
+    { "id": 4, "name": "Deandre Ayton", "team": "PHX", "value": 12.4 },
+    { "id": 5, "name": "Domantas Sabonis", "team": "IND", "value": 12.2 }
+  ],
+  "assists": [
+    { "id": 1, "name": "James Harden", "team": "BKN", "value": 11.1 },
+    { "id": 2, "name": "Luka Doncic", "team": "DAL", "value": 9.6 },
+    { "id": 3, "name": "Nikola Jokic", "team": "DEN", "value": 8.7 },
+    { "id": 4, "name": "Trae Young", "team": "ATL", "value": 8.6 },
+    { "id": 5, "name": "Chris Paul", "team": "PHX", "value": 8.5 }
+  ]
+}
