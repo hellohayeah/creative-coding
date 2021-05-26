@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/creative-coding/static/js/main.3edcc44d.chunk.js",
+    "main.js.map": "/creative-coding/static/js/main.3edcc44d.chunk.js.map",
+    "runtime-main.js": "/creative-coding/static/js/runtime-main.ce12bb24.js",
+    "runtime-main.js.map": "/creative-coding/static/js/runtime-main.ce12bb24.js.map",
+    "static/js/2.9a586f58.chunk.js": "/creative-coding/static/js/2.9a586f58.chunk.js",
+    "static/js/2.9a586f58.chunk.js.map": "/creative-coding/static/js/2.9a586f58.chunk.js.map",
+    "static/js/3.eaf00dd9.chunk.js": "/creative-coding/static/js/3.eaf00dd9.chunk.js",
+    "static/js/3.eaf00dd9.chunk.js.map": "/creative-coding/static/js/3.eaf00dd9.chunk.js.map",
+    "index.html": "/creative-coding/index.html",
+    "static/js/2.9a586f58.chunk.js.LICENSE.txt": "/creative-coding/static/js/2.9a586f58.chunk.js.LICENSE.txt",
+    "static/media/avalokiteśvara.e6256b9f.png": "/creative-coding/static/media/avalokiteśvara.e6256b9f.png",
+    "static/media/meme.6c1e83af.png": "/creative-coding/static/media/meme.6c1e83af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce12bb24.js",
+    "static/js/2.9a586f58.chunk.js",
+    "static/js/main.3edcc44d.chunk.js"
+  ]
+}
