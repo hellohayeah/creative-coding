@@ -1,9 +1,9 @@
 import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
-import Datas from "./datas.json";
+import NBALeaders from "../../assets/json/nbaLeaders.json";
 
 const sketch = (p5: P5) => {
-  let nbaData: any = Datas;
+  let nbaData: any = NBALeaders;
   let showData: any;
   let selectorElm: any;
   let sliderElement: any;

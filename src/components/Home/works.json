@@ -1,41 +1,16 @@
 [
-  {
-    "title": "【基礎繪製與色彩】",
-    "works": [
-      { "title": "製作揮灑的彩色滑鼠筆刷", "link": "/work/1" },
-      { "title": "繪製程式自畫像、景物或怪獸", "link": "/work/2" },
-      { "title": "用程式重現動態版博物館藝術", "link": "/work/3" }
-    ]
-  },
-  {
-    "title": "【創作生成式藝術】",
-    "works": [
-      { "title": "用抽象的方式視覺化時間", "link": "/work/4" },
-      { "title": "利用繽紛色彩繪製製作專輯封面", "link": "/work/5" },
-      { "title": "創造生成式藝術或圖騰 ", "link": "/work/6" }
-    ]
-  },
-  {
-    "title": "【互動系統與模擬】",
-    "works": [
-      { "title": "製作互動場景", "link": "/work/7" },
-      { "title": "繪製自然感的風景或畫", "link": "/work/8" },
-      { "title": "製作文字藝術產生器/圖像動態詩", "link": "/work/9" },
-      { "title": "製作繽紛的物理或生物模擬系統", "link": "/work/10" }
-    ]
-  },
-  {
-    "title": "【進階影音互動與即時資料應用】",
-    "works": [
-      { "title": "製作拼貼圖片跟充滿音效的遊樂場", "link": "/work/11" },
-      { "title": "利用即時影音轉變為抽象畫", "link": "/work/12" },
-      { "title": "使用資料視覺化手法製作動態", "link": "/work/13" }
-    ]
-  },
-  {
-    "title": "【程式創作的後續應用】",
-    "works": [
-      { "title": "發表作品 - 輸出與使用至不同平台", "link": "/work/14" }
-    ]
-  }
+  { "title": "鴨子", "link": "/work/14" },
+  { "title": "NBA 2020-21 NBA Leaders", "link": "/work/13" },
+  { "title": "撒尿牛丸", "link": "/work/12" },
+  { "title": "Woman yelling at cat", "link": "/work/11" },
+  { "title": "粒子打架", "link": "/work/10" },
+  { "title": "有拜有保佑", "link": "/work/9" },
+  { "title": "有夠冷", "link": "/work/8" },
+  { "title": "Starr Chen & Tipsy - 嫑Biao", "link": "/work/7" },
+  { "title": "誤打誤撞 ", "link": "/work/6" },
+  { "title": "蛋堡 - 家常音樂", "link": "/work/5" },
+  { "title": "盜版 Meet the Maker: Alana McCann", "link": "/work/4" },
+  { "title": "盜版 Bloomberg Futures", "link": "/work/3" },
+  { "title": "你全家才住在深海的大鳳梨裡", "link": "/work/2" },
+  { "title": "別想停、別想換", "link": "/work/1" }
 ]

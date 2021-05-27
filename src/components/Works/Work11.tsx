@@ -1,6 +1,6 @@
 import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
-import meme from "./meme.png";
+import meme from "../../assets/images/meme.png";
 
 const sketch = (p5: P5) => {
   let memeImg: any;
