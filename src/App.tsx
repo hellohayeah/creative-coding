@@ -1,22 +1,24 @@
 import { FC } from "react";
-import { Switch, Route } from "react-router-dom";
-import works from "./works";
-import Home from "./components/Home";
-import Work from "./components/Work";
+import { Switch, Route, useLocation } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import routes from "./routes";
 
-const App: FC = () => (
-  <Switch>
-    <Route
-      exact
-      path="/work/:id"
-      render={({ match }) => (
-        <Work {...works[works.length - parseInt(match.params.id)]} />
-      )}
-    />
-    <Route path="/">
-      <Home />
-    </Route>
-  </Switch>
-);
+const App: FC = () => {
+  let location = useLocation();
+
+  return (
+    <div className="app">
+      <TransitionGroup>
+        <CSSTransition key={location.key} timeout={300} classNames="fade">
+          <Switch location={location}>
+            {routes.map(({ path, Component }) => (
+              <Route key={path} exact path={path} children={<Component />} />
+            ))}
+          </Switch>
+        </CSSTransition>
+      </TransitionGroup>
+    </div>
+  );
+};
 
 export default App;

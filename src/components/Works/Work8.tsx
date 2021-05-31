@@ -12,7 +12,7 @@ const sketch = (p5: P5) => {
   const particles: ParticleTypes[] = [];
 
   p5.setup = () => {
-    p5.createCanvas(600, 600);
+    p5.createCanvas(1200, 600);
     p5.colorMode(p5.HSB);
     p5.background(230, 100, 50);
     for (let x = 0; x <= p5.width; x += 15) {

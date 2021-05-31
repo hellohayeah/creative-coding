@@ -5,7 +5,7 @@ const sketch = (p5: P5) => {
   let count = 0;
 
   p5.setup = () => {
-    p5.createCanvas(600, 600);
+    p5.createCanvas(1200, 600);
     p5.background(50);
   };
 
@@ -27,7 +27,7 @@ const Work1: FC = () => {
     return () => newp5.remove();
   }, []);
 
-  return <div className="work1" ref={work1} />;
+  return <div ref={work1} />;
 };
 
 export default Work1;

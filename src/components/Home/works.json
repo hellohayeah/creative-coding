@@ -1,16 +1,72 @@
 [
-  { "title": "鴨子", "link": "/work/14" },
-  { "title": "NBA 2020-21 NBA Leaders", "link": "/work/13" },
-  { "title": "撒尿牛丸", "link": "/work/12" },
-  { "title": "Woman yelling at cat", "link": "/work/11" },
-  { "title": "粒子打架", "link": "/work/10" },
-  { "title": "有拜有保佑", "link": "/work/9" },
-  { "title": "有夠冷", "link": "/work/8" },
-  { "title": "Starr Chen & Tipsy - 嫑Biao", "link": "/work/7" },
-  { "title": "誤打誤撞 ", "link": "/work/6" },
-  { "title": "蛋堡 - 家常音樂", "link": "/work/5" },
-  { "title": "盜版 Meet the Maker: Alana McCann", "link": "/work/4" },
-  { "title": "盜版 Bloomberg Futures", "link": "/work/3" },
-  { "title": "你全家才住在深海的大鳳梨裡", "link": "/work/2" },
-  { "title": "別想停、別想換", "link": "/work/1" }
+  {
+    "title": "鴨子",
+    "link": "/work/14",
+    "image": "/assets/work14.jpg"
+  },
+  {
+    "title": "NBA 2020-21 NBA Leaders",
+    "link": "/work/13",
+    "image": "/assets/work13.jpg"
+  },
+  {
+    "title": "撒尿牛丸",
+    "link": "/work/12",
+    "image": "/assets/work12.jpg"
+  },
+  {
+    "title": "Woman yelling at cat",
+    "link": "/work/11",
+    "image": "/assets/work11.jpg"
+  },
+  {
+    "title": "粒子打架",
+    "link": "/work/10",
+    "image": "/assets/work10.jpg"
+  },
+  {
+    "title": "有拜有保佑",
+    "link": "/work/9",
+    "image": "/assets/work9.jpg"
+  },
+  {
+    "title": "有夠冷",
+    "link": "/work/8",
+    "image": "/assets/work8.jpg"
+  },
+  {
+    "title": "Starr Chen & Tipsy - 嫑Biao",
+    "link": "/work/7",
+    "image": "/assets/work7.jpg"
+  },
+  {
+    "title": "誤打誤撞",
+    "link": "/work/6",
+    "image": "/assets/work6.jpg"
+  },
+  {
+    "title": "蛋堡 - 家常音樂",
+    "link": "/work/5",
+    "image": "/assets/work5.jpg"
+  },
+  {
+    "title": "盜版 Meet the Maker: Alana McCann",
+    "link": "/work/4",
+    "image": "/assets/work4.jpg"
+  },
+  {
+    "title": "盜版 Bloomberg Futures",
+    "link": "/work/3",
+    "image": "/assets/work3.jpg"
+  },
+  {
+    "title": "你全家才住在深海的大鳳梨裡",
+    "link": "/work/2",
+    "image": "/assets/work2.jpg"
+  },
+  {
+    "title": "別想停、別想換",
+    "link": "/work/1",
+    "image": "/assets/work1.jpg"
+  }
 ]
