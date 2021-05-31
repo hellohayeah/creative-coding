@@ -8,7 +8,7 @@ import GlobalStyle from "./styles/GlobelStyle";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/creative-coding">
       <GlobalStyle />
       <ScrollToTop />
       <App />
