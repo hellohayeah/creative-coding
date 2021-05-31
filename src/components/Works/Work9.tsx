@@ -1,6 +1,6 @@
 import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
-import Avalokiteśvara from "../../assets/images/avalokiteśvara.png";
+import Avalokiteśvara from "../../assets/images/avalokitesvara.png";
 
 interface strArrTypes {
   x: number;
