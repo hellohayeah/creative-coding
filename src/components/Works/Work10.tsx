@@ -4,7 +4,7 @@ import P5 from "p5";
 const sketch = (p5: P5) => {
   class Particles {
     r: number;
-    p: any;
+    p: P5.Vector;
     clr: string;
     constructor() {
       this.r = 5;
@@ -25,7 +25,7 @@ const sketch = (p5: P5) => {
     }
   }
 
-  const particles: any = [];
+  const particles: Particles[] = [];
 
   p5.setup = () => {
     p5.createCanvas(1200, 600);

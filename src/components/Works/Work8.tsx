@@ -5,7 +5,7 @@ interface ParticleTypes {
   x: number;
   y: number;
   size: number;
-  clr: any;
+  clr: P5.Color;
 }
 
 const sketch = (p5: P5) => {

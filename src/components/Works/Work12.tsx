@@ -2,9 +2,9 @@ import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
 
 const sketch = (p5: P5) => {
-  let capture: any;
-  let cacheGraphics: any;
-  // let mic: any;
+  let capture: P5.Element;
+  let cacheGraphics: P5.Graphics;
+  // let mic;
 
   p5.setup = () => {
     p5.createCanvas(640, 480);

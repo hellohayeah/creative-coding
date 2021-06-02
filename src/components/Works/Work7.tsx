@@ -1,9 +1,17 @@
 import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
 
+interface StarAndHeartTypes {
+  type: "star" | "heart";
+  x: number;
+  y: number;
+  size: number;
+  vy: number;
+}
+
 const sketch = (p5: P5) => {
   const colors = ["#FFFDA2", "#F9A4B0"];
-  const StarAndHeart: any[] = [];
+  const StarAndHeart: StarAndHeartTypes[] = [];
 
   p5.setup = () => {
     p5.createCanvas(550, 550);
@@ -19,7 +27,7 @@ const sketch = (p5: P5) => {
     }
   };
 
-  const heart = (x: number, y: number, size: number, clr: any = colors[1]) => {
+  const heart = (x: number, y: number, size: number, clr: P5.Color) => {
     p5.fill(clr);
     p5.beginShape();
     p5.vertex(x, y);
@@ -58,8 +66,7 @@ const sketch = (p5: P5) => {
     p5.push();
     p5.translate(p5.width / 2, 0);
     for (let i = 0; i < 10; i++) {
-      let clr = [330 - i * 33, 60, 100];
-      heart(0, 0 + i * 25, 800 - i * 80, clr);
+      heart(0, 0 + i * 25, 800 - i * 80, p5.color([330 - i * 33, 60, 100]));
     }
     p5.pop();
 
@@ -69,7 +76,13 @@ const sketch = (p5: P5) => {
 
       if (StarAndHeart[i].type === "star")
         star(StarAndHeart[i].x, StarAndHeart[i].y, StarAndHeart[i].size);
-      else heart(StarAndHeart[i].x, StarAndHeart[i].y, StarAndHeart[i].size);
+      else
+        heart(
+          StarAndHeart[i].x,
+          StarAndHeart[i].y,
+          StarAndHeart[i].size,
+          p5.color(colors[1])
+        );
 
       StarAndHeart[i].y += StarAndHeart[i].vy;
       if (StarAndHeart[i].y > p5.height) {

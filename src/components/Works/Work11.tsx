@@ -3,7 +3,7 @@ import P5 from "p5";
 import meme from "../../assets/images/meme.png";
 
 const sketch = (p5: P5) => {
-  let memeImg: any;
+  let memeImg: P5.Image;
 
   p5.preload = () => {
     memeImg = p5.loadImage(meme);

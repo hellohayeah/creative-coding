@@ -1,6 +1,6 @@
 import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
-import Avalokiteśvara from "../../assets/images/avalokitesvara.png";
+import Avalokitesvara from "../../assets/images/avalokitesvara.png";
 
 interface strArrTypes {
   x: number;
@@ -13,13 +13,13 @@ interface strArrTypes {
 const sketch = (p5: P5) => {
   let inputElem: any;
   let buttonElem;
-  let imgElem: any;
-  // let fontFamily: any;
+  let imgElem: P5.Image;
+  // let fontFamily;
   const colors = ["#090107", "#fff"];
   const strArr: strArrTypes[] = [];
 
   p5.preload = () => {
-    imgElem = p5.loadImage(Avalokiteśvara);
+    imgElem = p5.loadImage(Avalokitesvara);
     // fontFamily = p5.loadFont("AaZanJinXiaoKai.ttf");
   };
 

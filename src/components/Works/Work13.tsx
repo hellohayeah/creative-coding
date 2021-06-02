@@ -2,9 +2,16 @@ import { FC, useRef, useEffect } from "react";
 import P5 from "p5";
 import NBALeaders from "../../assets/json/nbaLeaders.json";
 
+interface LeaderTypes {
+  id: number;
+  name: string;
+  team: string;
+  value: number;
+}
+
 const sketch = (p5: P5) => {
-  let nbaData: any = NBALeaders;
-  let showData: any;
+  const nbaData = NBALeaders;
+  let showData: LeaderTypes[];
   let selectorElm: any;
   let sliderElement: any;
 
