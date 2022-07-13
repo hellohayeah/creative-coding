@@ -36,12 +36,12 @@ const WorkContainer = styled.div`
   justify-content: center;
 `;
 
-interface ParamsTypes {
+export type ParamsTypes = {
   id: string;
-}
+};
 
 const Work: FC = () => {
-  const { id } = useParams<ParamsTypes>();
+  const { id } = useParams<keyof ParamsTypes>() as ParamsTypes;
 
   const { name, description, difficulty, advanced, Component } =
     works[works.length - parseInt(id)];

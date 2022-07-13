@@ -1,20 +1,22 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ScrollToTop } from "./components/common";
 import GlobalStyle from "./styles/GlobelStyle";
 
-ReactDOM.render(
+const rootElement = document.getElementById("root")!;
+const root = createRoot(rootElement);
+
+root.render(
   <React.StrictMode>
     <BrowserRouter basename="/creative-coding">
       <GlobalStyle />
       <ScrollToTop />
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
